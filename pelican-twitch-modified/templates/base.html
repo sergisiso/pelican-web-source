@@ -83,13 +83,16 @@
         <!-- Sidebar -->
         <div id="sidebar-wrapper-small" class="twitchy-background">
             <ul id="accordion-small" class="sidebar-nav sidebar-nav-small">
-                {{ nav_small_li(SITEURL, SITENAME, '<span class="glyphicon glyphicon-home"></span>') }}
- 
+                <li>
+                    <a href="{{ SITEURL }}/" class="collapsed">
+                        <span class="glyphicon glyphicon-home"></span>
+                    </a>
+                </li>
                 {% if DISPLAY_PAGES_ON_MENU %}
                     {% for p in pages|sort(attribute='date') %}
                     {% if p.title!="About" %}
-                    <li id="none" class="none">
-                        <a href="{{ SITEURL }}/{{ p.url }}">
+                    <li {% if p == page %} class="active"{% endif %}>
+                        <a href="{{ SITEURL }}/{{ p.url }}" class="collapsed">
                             {% if p.title=="Publications" %}
                             <i class="fa fa-book padding-small"></i>
                             {% endif %}
@@ -105,8 +108,6 @@
                     {% endif %}
                     {% endfor %}
                 {% endif %}
-
-
 
 
                 <li class="nav-divider"></li>
@@ -171,7 +172,7 @@
                 {% if DISPLAY_PAGES_ON_MENU %}
                     {% for p in pages|sort(attribute='date') %}
                     {% if p.title!="About" %}
-                    <li{% if p == page %} class="active"{% endif %}>
+                    <li class="{% if p == page %}active{% endif %}">
                         <a href="{{ SITEURL }}/{{ p.url }}">
                             {% if p.title=="Publications" %}
                             <i class="fa fa-book padding-small"></i>
@@ -193,7 +194,7 @@
                 {% if DISPLAY_RECENT_POSTS_ON_MENU %}
                     <li class="nav-divider"></li>
                     <li>
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-latest">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse-latest" class="collapsed">
                             <span class="glyphicon glyphicon-th-list padding-small"></span>
                             Recent Blog Articles
                         </a>
@@ -304,11 +305,6 @@
                 {% endif %}
                 
                 {% if DISPLAY_TAGS_ON_MENU %}
-                    {% if DISPLAY_TAGS_INLINE %}
-                        {% set tags = tag_cloud | sort(attribute='0') %}
-                    {% else %}
-                        {% set tags = tag_cloud | sort(attribute='1') %}
-                    {% endif %}
                 <li class="nav-divider"></li>
                 <li>
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapse-tags">
@@ -317,10 +313,12 @@
                     </a>
                 </li>
                 <li class="panel anti-panel"><ul id="collapse-tags" class="sidebar_submenu collapse {% block collapse_tags %}{% endblock %}">
-                    {% for tag in tags %}
-                    <li class="tag-{{ tag.1 }}">
-                        <a href="{{ SITEURL }}/{{ tag.0.url }}">
-                            {{ tag.0 }}
+                    {% for t, articles in tags %}
+                    <li {% if t == tag %}class="active"{% endif %} >
+                        <a href="{{ SITEURL }}/{{ t.url }}">
+                            <i class="fa fa-tags padding-small"></i>
+                            {{ t }}
+                            <span class="badge pull-right categorybadge">{{ articles|count }}</span>
                         </a>
                     </li>
                     {% endfor %}

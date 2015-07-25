@@ -50,11 +50,24 @@
     <div class="col-lg-9">
         <section id="content" class="body">
             <h1 class="page-header">{{ page.title }}</h1>
+        </section>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-9">
+        <section id="content" class="body">
             <div class="entry-content">
                 {{ page.content }}
             </div>
         </section>
     </div>
+    {% if page.toc %}
+        <div id="scrollspy">
+            <div class="col-lg-3 nav nav-stacked hidden-xs hidden-sm" data-spy="affix" data-offset-top="135">
+                {{ page.toc }}
+            </div>
+        </div>
+    {% endif %}
 </div>
 {% endblock %}
 

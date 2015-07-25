@@ -29,5 +29,12 @@ DEFAULT_PAGINATION = False
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 DISPLAY_RECENT_POSTS_ON_MENU = True
+DISPLAY_TAGS_ON_MENU = True
+DISPLAY_CATEGORIES_ON_MENU = False
 
 STATIC_PATHS = ['images', 'pdfs']
+
+PLUGIN_PATHS = ["plugins/pelican-toc"]
+PLUGINS = ["toc"]
+BOOTSTRAP_THEME = "spacelab"
+PYGMENTS_STYLE = "github"

@@ -1,5 +1,6 @@
 Title: Curriculum
 Date: 2010-12-01 10:20
+toc_headers: ^h[1-3]
 
 ##Education
 
@@ -71,4 +72,5 @@ of homomorphic cryptosystems, specifically over elliptic curves. Studied and imp
 * Jun 2014 **Student Volunteer** at International Supercomputing Conference 14
 
 
-####See also my [Publications]({filename}/pages/Publications.md) and [Projects]({filename}/pages/Projects.md)
+<br/><br/>
+See also my [Publications]({filename}/pages/Publications.md) and [Projects]({filename}/pages/Projects.md)
