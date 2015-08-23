@@ -1,7 +1,9 @@
 Title: Publications
 Date: 2010-12-02 10:20
 
-##Thesis
+
+<h1 class="fa fa-book fa-2x" style="color:#2D2D2D"> Thesis</h1>
+
 #### 2014 [Parallelisation of the Coupled Coherent States quantum dynamics simulation](https://static.ph.ed.ac.uk/dissertations/hpc-msc/2013-2014/Parallelisation%20of%20the%20Coupled%20Coherent%20States%20quantum%20dynamics%20simulation.pdf) MSc in HPC dissertation
 
 The Coupled Coherent States is a quantum molecular dynamics method which solves the time-dependent Schrödinger equation in a basis of semi-classical trajectories in an attempt to avoid exponential scaling. This makes it able to simulate and study the time evolution of photochemical reactions.
@@ -19,7 +21,9 @@ Examine and analyse how we can use the summarized information of parallel applic
 This document is part of a wider project which presents an e-Voting platform based on elliptic curve cryptography. It uses an hybrid combination of two of the main e-Voting paradigms to guarantee privacy and security in the counting phase, these are precisely, the mixnets and the homomorphic protocols. This document is focused in the description of the system and the maths and programming needed to solve the homomorphic part of it. In later chapters, there is a comparison between a simple mixing system and our system proposal.
 
 
-## Symposiums
+<h1 class="fa fa-pie-chart fa-2x" style="color:#2D2D2D"> Presentations</h1>
 
-#### CCS
+#### 2 Dec 2014 [Coupled Coherent States](), Quantum Dynamics Workshop at University of Edinburgh, School of Chemistry
+
+
 #### DualSPH
