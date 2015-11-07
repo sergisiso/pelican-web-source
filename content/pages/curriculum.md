@@ -53,7 +53,14 @@ toc_headers: ^h[1-3]
 <td align="right"><h4>Feb 2015 - present</h4></td>
 <td align="left"><h4>Application Performance Engineer at <b>Science and Technology Facilities Council</b>, Daresbury, UK</h4>
 <p>
-Desc.
+I analyse the performance of technical and scientific applications in order to adapt them to newer hardware architectures and reduce their total runtime. I am part of the Intel Parallel Computing Centre which specializes in the novel Intel many-core architecture, Intel Xeon Phi. Among the applications I have been optimizing there are:
+<ul>
+<li> Dl_MESO LBE: A Lattice Boltzmann mesoscopic simulation package. </li>
+<li>DualSPHysics: A smooth particle hydrodynamics to study free-surface flow phenomena.</li>
+<li>An industrial Finite Elements solver for both inviscid and viscous compressible flows.</li>
+<li>In-situ visualization workflows with OSPRay technology.</li>
+</ul>
+Results of the mentioned work have been presented in international conferences.
 </p>
 </td>
 </tr>
