@@ -3,8 +3,8 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Sergi Siso'
 SITENAME = u'Sergi Siso'
-SITESUBTITLE = u'PhD Student and Application Performane Engineer'
-DESCRIPTION = u'PhD Student and Application Performane Engineer'
+SITESUBTITLE = u'High Performance Software Engineer @ Hartree Centre'
+DESCRIPTION = u'Sergi Siso Personal Webpage'
 SITEURL = ''
 THEME = 'pelican-twitch-modified'
 

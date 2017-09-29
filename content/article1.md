@@ -1,6 +1,7 @@
 Title: Test Post
 Date: 2010-12-03 10:20
 Tags: programming, hpc
+Status: draft
 
 
 # Test post.
