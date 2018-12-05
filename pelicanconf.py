@@ -3,10 +3,13 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Sergi Siso'
 SITENAME = u'Sergi Siso'
+SITETITLE = u'Sergi Siso'
 SITESUBTITLE = u'High Performance Software Engineer @ Hartree Centre'
 DESCRIPTION = u'Sergi Siso Personal Webpage'
-SITEURL = ''
-THEME = 'pelican-twitch-modified'
+SITEURaL = ''#'http://www.sergisiso.com'
+THEME = 'flex-theme'
+#SITELOGO = SITEURL + '/images/profile.png'
+#FAVICON = SITEURL + '/images/favicon.ico'
 
 TIMEZONE = 'Europe/Paris'
 
@@ -21,10 +24,10 @@ TRANSLATION_FEED_ATOM = None
 #LINKS =  (('', ''),)
 
 # Social widget
-SOCIAL = (('EMAIL', 'mailto:sergiesg@gmail.com'),
-        ('Github','https://github.com/sergisiso'),
-        ('Bitbucket','https://bitbucket.org/ssiso'),
-        ('Linkedin', 'https://www.linkedin.com/in/sergisiso'),)
+SOCIAL = (('email', 'mailto:sergiesg@gmail.com'),
+        ('github','https://github.com/sergisiso'),
+        ('bitbucket','https://bitbucket.org/ssiso'),
+        ('linkedin', 'https://www.linkedin.com/in/sergisiso'),)
 
 DEFAULT_PAGINATION = False
 
@@ -36,7 +39,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 
 STATIC_PATHS = ['images', 'pdfs']
 
-PLUGIN_PATHS = ["plugins/pelican-toc"]
-PLUGINS = ["toc"]
+#PLUGIN_PATHS = [""]
+#PLUGINS = [""]
 BOOTSTRAP_THEME = "spacelab"
 PYGMENTS_STYLE = "github"
