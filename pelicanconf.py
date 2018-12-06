@@ -6,10 +6,10 @@ SITENAME = u'Sergi Siso'
 SITETITLE = u'Sergi Siso'
 SITESUBTITLE = u'High Performance Software Engineer @ Hartree Centre'
 DESCRIPTION = u'Sergi Siso Personal Webpage'
-SITEURaL = ''#'http://www.sergisiso.com'
-THEME = 'flex-theme'
-#SITELOGO = SITEURL + '/images/profile.png'
-#FAVICON = SITEURL + '/images/favicon.ico'
+SITEURL = ''#'http://www.sergisiso.com'
+THEME = 'flex'
+SITELOGO = SITEURL + 'images/prof2.jpg'
+FAVICON = SITEURL + 'images/favicon.png'
 
 TIMEZONE = 'Europe/Paris'
 
@@ -24,17 +24,20 @@ TRANSLATION_FEED_ATOM = None
 #LINKS =  (('', ''),)
 
 # Social widget
-SOCIAL = (('email', 'mailto:sergiesg@gmail.com'),
+SOCIAL = (('envelope', 'mailto:sergiesg@gmail.com'),
         ('github','https://github.com/sergisiso'),
         ('bitbucket','https://bitbucket.org/ssiso'),
+        ('instagram','https://www.instagram.com/sergisiso/'),
+        ('twitter','https://twitter.com/sergiesg'),
+        ('facebook','https://www.facebook.com/sergi.siso.9'),
         ('linkedin', 'https://www.linkedin.com/in/sergisiso'),)
 
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
-DISPLAY_RECENT_POSTS_ON_MENU = True
-DISPLAY_TAGS_ON_MENU = True
+DISPLAY_RECENT_POSTS_ON_MENU = False
+DISPLAY_TAGS_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 
 STATIC_PATHS = ['images', 'pdfs']
@@ -43,3 +46,6 @@ STATIC_PATHS = ['images', 'pdfs']
 #PLUGINS = [""]
 BOOTSTRAP_THEME = "spacelab"
 PYGMENTS_STYLE = "github"
+
+COPYRIGHT_NAME = "Sergi Siso"
+COPYRIGHT_YEAR = "2018-2019"
