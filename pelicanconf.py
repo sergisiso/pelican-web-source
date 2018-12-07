@@ -6,10 +6,10 @@ SITENAME = u'Sergi Siso'
 SITETITLE = u'Sergi Siso'
 SITESUBTITLE = u'High Performance Software Engineer @ Hartree Centre'
 DESCRIPTION = u'Sergi Siso Personal Webpage'
-SITEURL = ''#'http://www.sergisiso.com'
+SITEURL = 'https://sergisiso.github.io'
 THEME = 'flex'
-SITELOGO = SITEURL + 'images/prof2.jpg'
-FAVICON = SITEURL + 'images/favicon.png'
+SITELOGO = SITEURL + '/images/prof2.jpg'
+FAVICON = SITEURL + '/images/favicon.png'
 
 TIMEZONE = 'Europe/Paris'
 
