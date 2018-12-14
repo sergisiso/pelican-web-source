@@ -40,7 +40,7 @@ of homomorphic cryptosystems, specifically over elliptic curves. Studied and imp
     * Programmed Programmable Logic Controllers for many applications (solar panels, refrigeration rooms, hydraulic pumps,...) and developed web interfaces to control themremotely.
 
 <br>
-<h2 class="fa fa-globe fa-2x" style="display:inline"></h2><h2 style="display:inline;padding-left:20px;">Experience</h2>
+<h2 class="fa fa-globe fa-2x" style="display:inline"></h2><h2 style="display:inline;padding-left:20px;">Languages</h2>
 
 * Catalan: Native
 * Spanish: Native
