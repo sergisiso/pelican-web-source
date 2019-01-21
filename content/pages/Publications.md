@@ -22,7 +22,7 @@ Date: 2010-12-02 10:20
 <br>
 <h2 class="fa fa-file-alt fa-2x" style="display:inline"></h2><h2 style="display:inline;padding-left:20px;">Papers</h2>
 
-**2016 - [Early Application Performance at the Hartree Centre with the OpenPOWER Architecture.](https://link.springer.com/chapter/10.1007/978-3-319-46079-6_13)** Mike Ashworth, Jianping Meng, Vedran Novakovic, Sersi Siso, *International Conference on High Performance Computing*
+**2016 - [Early Application Performance at the Hartree Centre with the OpenPOWER Architecture.](https://link.springer.com/chapter/10.1007/978-3-319-46079-6_13)** Mike Ashworth, Jianping Meng, Vedran Novakovic, Sergi Siso, *International Conference on High Performance Computing*
 
 Abstract: "The Hartree Centre has been established as a UK focus for industrial
 engagement. STFC has acquired a new IBM system based on the OpenPOWER

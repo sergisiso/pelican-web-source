@@ -6,7 +6,7 @@ SITENAME = u'Sergi Siso'
 SITETITLE = u'Sergi Siso'
 SITESUBTITLE = u'High Performance Software Engineer @ Hartree Centre'
 DESCRIPTION = u'Sergi Siso Personal Webpage'
-SITEURL =  ''#'https://sergisiso.github.io'
+SITEURL =  'https://sergisiso.github.io'
 THEME = 'flex'
 SITELOGO = SITEURL + '/images/prof2.jpg'
 FAVICON = SITEURL + '/images/favicon.png'
@@ -26,7 +26,7 @@ TRANSLATION_FEED_ATOM = None
 # Social widget
 SOCIAL = (('envelope', 'mailto:sergiesg@gmail.com'),
         ('github','https://github.com/sergisiso'),
-        ('bitbucket','https://bitbucket.org/ssiso'),
+#        ('bitbucket','https://bitbucket.org/ssiso'),
         ('instagram','https://www.instagram.com/sergisiso/'),
         ('twitter','https://twitter.com/sergiesg'),
         ('facebook','https://www.facebook.com/sergi.siso.9'),

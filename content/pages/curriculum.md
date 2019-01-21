@@ -4,6 +4,10 @@ Date: 2010-12-01 10:20
 <br>
 <h2 class="fa fa-university fa-2x" style="display:inline"></h2><h2 style="display:inline;padding-left:20px;">Education</h2>
 
+* 2016 - present: **Ph.D. in Computer Science**, University of Liverpool
+    * Topic: Runtime information exploitation to achieve better vectorization in high performance computing software.
+    * Supervisor: Jeyan Thiyagalingam (second supervisor: Frans Coenen)
+
 * 2013-2014: **MSc with Distinction in High Performance Computing**, EPCC, University of Edinburgh
     * Scholarship:  "Highly Skilled Workforce" award of the Scottish Funding Council.
     * Dissertation: "Parallelisation of the Coupled Coherent States quantum dynamics simulation" | Advisor: Andrew Turner
