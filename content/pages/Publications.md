@@ -1,26 +1,15 @@
 Title: Publications
 Date: 2010-12-02 10:20
 
-<br>
-<h2 class="fa fa-chart-pie fa-2x" style="display:inline"></h2><h2 style="display:inline;padding-left:20px;">Presentations</h2>
-
-**November 2015 - [DL MESO Lattice Boltzmann port to Intel Xeon Phi]()** *Supercomputing '15*, Austin
-
-**November 2015 - [Benefits of Leveraging Software Defined Visualization]()** *Intel HPC Developer's Conference*, Austin
-
-**October 2015 - [Benefits of Leveraging Software Defined Visualization](https://software.intel.com/en-us/ipcc/webinars)**, Intel PCC Webminar
-
-**September 2015 - [DualSPHysics Performance on Intel Xeon Phi](pdfs/DualSPHysics_UserGroup_XeonPhi.pdf)**, Presented at *UK SPH Symposium*, Daresbury & *DualSPHysics User Group*, Manchester
-
-**July 2015 - [DL MESO Lattice Boltzman Data Layout](pdfs/hartree_ixpub_slides_v2.pdf)**,  *Tutorial: The Road to Application Performance on Intel Xeon Phi, International Supercomputing Conference 15*, Frankfurt
-
-**July 2015 - [Improving Vector Performance with Vector Advisor](pdfs/hartree_simd_bof_v3.pdf)**, *SIMD BoF, International Supercomputing Conference 15*, Frankfurt
-
-**December 2014 - [Coupled Coherent States](pdfs/CCS_basic.pdf)**, *Quantum Dynamics Workshop* at University of Edinburgh, School of Chemistry
-
 
 <br>
 <h2 class="fa fa-file-alt fa-2x" style="display:inline"></h2><h2 style="display:inline;padding-left:20px;">Papers</h2>
+
+**2019 - [Evaluating Auto-Vectorizing Compilers through Objective Withdrawal of Useful Information](https://dl.acm.org/citation.cfm?doid=3366460.3356842)** Sergi Siso, Wes Armour, Jeyan Thiyagalingam, *ACM Transactions on Architecture and Code Optimization (TACO) 16 (4), 40*
+
+Abstract: "The need for compilers to generate highly vectorized code is at an all-time high with the increasing vectorization capabilities of modern processors. To this end, the information that compilers have at their disposal, either through code analysis or via user annotations, is instrumental for auto-vectorization, and hence for the overall performance. However, the information that is available to compilers at compile time and its accuracy varies greatly, as does the resulting performance of vectorizing compilers. Benchmarks like the Test Suite for Vectorizing Compilers (TSVC) have been developed to evaluate the vectorization capability of such compilers. The overarching approach of TSVC and similar benchmarks is to evaluate the compilers under the best possible scenario (i.e., assuming that compilers have access to all useful contextual information at compile time). Although this idealistic view is useful to observe the capability of compilers for auto-vectorization, it is not a true reflection of the conditions found in real-world applications.
+
+In this article, we propose a novel method for evaluating the auto-vectorization capability of compilers. Instead of assuming that compilers have access to a wealth of information at compile time, we formulate a method to objectively supply or withdraw information that would otherwise aid the compiler in the auto-vectorization process. This method is orthogonal to the approach adopted by TSVC, and as such, it provides the means of assessing the capabilities of modern vectorizing compilers in a more detailed way."
 
 **2016 - [Early Application Performance at the Hartree Centre with the OpenPOWER Architecture.](https://link.springer.com/chapter/10.1007/978-3-319-46079-6_13)** Mike Ashworth, Jianping Meng, Vedran Novakovic, Sergi Siso, *International Conference on High Performance Computing*
 
@@ -77,5 +66,22 @@ Abstract: "Examine and analyse how we can use the summarized information of para
 
 Advisor: J.M Miret <br>
 Abstract: "This document is part of a wider project which presents an e-Voting platform based on elliptic curve cryptography. It uses an hybrid combination of two of the main e-Voting paradigms to guarantee privacy and security in the counting phase, these are precisely, the mixnets and the homomorphic protocols. This document is focused in the description of the system and the maths and programming needed to solve the homomorphic part of it. In later chapters, there is a comparison between a simple mixing system and our system proposal."
+
+<br>
+<h2 class="fa fa-chart-pie fa-2x" style="display:inline"></h2><h2 style="display:inline;padding-left:20px;">Presentations</h2>
+
+**November 2015 - [DL MESO Lattice Boltzmann port to Intel Xeon Phi]()** *Supercomputing '15*, Austin
+
+**November 2015 - [Benefits of Leveraging Software Defined Visualization]()** *Intel HPC Developer's Conference*, Austin
+
+**October 2015 - [Benefits of Leveraging Software Defined Visualization](https://software.intel.com/en-us/ipcc/webinars)**, Intel PCC Webminar
+
+**September 2015 - [DualSPHysics Performance on Intel Xeon Phi](pdfs/DualSPHysics_UserGroup_XeonPhi.pdf)**, Presented at *UK SPH Symposium*, Daresbury & *DualSPHysics User Group*, Manchester
+
+**July 2015 - [DL MESO Lattice Boltzman Data Layout](pdfs/hartree_ixpub_slides_v2.pdf)**,  *Tutorial: The Road to Application Performance on Intel Xeon Phi, International Supercomputing Conference 15*, Frankfurt
+
+**July 2015 - [Improving Vector Performance with Vector Advisor](pdfs/hartree_simd_bof_v3.pdf)**, *SIMD BoF, International Supercomputing Conference 15*, Frankfurt
+
+**December 2014 - [Coupled Coherent States](pdfs/CCS_basic.pdf)**, *Quantum Dynamics Workshop* at University of Edinburgh, School of Chemistry
 
 
