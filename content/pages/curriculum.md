@@ -78,4 +78,4 @@ of homomorphic cryptosystems, specifically over elliptic curves. Studied and imp
 
 <br><br>
 
-You can find a PDF version of this curriculum [here](pdfs/CV2020_SergiSiso.pdf).
+You can find a PDF version of this curriculum [here]({filename}/pdfs/CV2020_SergiSiso.pdf).

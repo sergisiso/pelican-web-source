@@ -8,9 +8,9 @@ Welcome to my personal site! I am a High Performance Software Engineer in the
 [Science and Technology Facilities Council (STFC)](https://stfc.ukri.org/), Daresbury
 Laboratory, UK.
 
-My role is the Hartree Centre is to analyse the performance and optimize scientific
+My role in Hartree Centre is to analyse and optimize the performance of scientific
 and technical applications to modern parallel architectures and supercomputers.
-I have work in projects with Intel (I was the PI of the Hartree Centre Intel Parallel
+I have been involved in projects with Intel (I was the PI of the Hartree Centre Intel Parallel
 Computing Centre), Roll-Royce Plc, and the UK MetOffice among others. Currently I am
 contributing to the open-source [PSyclone](https://github.com/stfc/PSyclone) code-generation
 system for domain-specific languages.  
@@ -20,8 +20,8 @@ University of Liverpool under the supervision of Jeyan Thiyagalingam, I am resea
 dynamic compilation systems to identify and solve at runtime performance issues on novel
 many-core architectures.
 
-I created this site as a place to gather all the publications, presentations and
-projects I have been working on.
+I created this site as a place to list all the publications, presentations and
+projects that I have been working on.
 
 <div align="center">
 <div style="max-width:500px" > 

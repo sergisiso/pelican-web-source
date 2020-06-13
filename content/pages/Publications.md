@@ -76,12 +76,12 @@ Abstract: "This document is part of a wider project which presents an e-Voting p
 
 **October 2015 - [Benefits of Leveraging Software Defined Visualization](https://software.intel.com/en-us/ipcc/webinars)**, Intel PCC Webminar
 
-**September 2015 - [DualSPHysics Performance on Intel Xeon Phi](pdfs/DualSPHysics_UserGroup_XeonPhi.pdf)**, Presented at *UK SPH Symposium*, Daresbury & *DualSPHysics User Group*, Manchester
+**September 2015 - [DualSPHysics Performance on Intel Xeon Phi]({filename}/pdfs/DualSPHysics_UserGroup_XeonPhi.pdf)**, Presented at *UK SPH Symposium*, Daresbury & *DualSPHysics User Group*, Manchester
 
-**July 2015 - [DL MESO Lattice Boltzman Data Layout](pdfs/hartree_ixpub_slides_v2.pdf)**,  *Tutorial: The Road to Application Performance on Intel Xeon Phi, International Supercomputing Conference 15*, Frankfurt
+**July 2015 - [DL MESO Lattice Boltzman Data Layout]()**,  *Tutorial: The Road to Application Performance on Intel Xeon Phi, International Supercomputing Conference 15*, Frankfurt
 
-**July 2015 - [Improving Vector Performance with Vector Advisor](pdfs/hartree_simd_bof_v3.pdf)**, *SIMD BoF, International Supercomputing Conference 15*, Frankfurt
+**July 2015 - [Improving Vector Performance with Vector Advisor]({filename}/pdfs/hartree_simd_bof_v3.pdf)**, *SIMD BoF, International Supercomputing Conference 15*, Frankfurt
 
-**December 2014 - [Coupled Coherent States](pdfs/CCS_basic.pdf)**, *Quantum Dynamics Workshop* at University of Edinburgh, School of Chemistry
+**December 2014 - [Coupled Coherent States]({filename}/pdfs/CCS_basic.pdf)**, *Quantum Dynamics Workshop* at University of Edinburgh, School of Chemistry
 
 
