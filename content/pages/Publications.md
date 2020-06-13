@@ -3,7 +3,7 @@ Date: 2010-12-02 10:20
 
 
 <br>
-<h2 class="fa fa-file-alt fa-2x" style="display:inline"></h2><h2 style="display:inline;padding-left:20px;">Papers</h2>
+<h2 class="fa fa-file-text fa-2x" style="display:inline"></h2><h2 style="display:inline;padding-left:20px;">Papers</h2>
 
 **2019 - [Evaluating Auto-Vectorizing Compilers through Objective Withdrawal of Useful Information](https://dl.acm.org/citation.cfm?doid=3366460.3356842)** Sergi Siso, Wes Armour, Jeyan Thiyagalingam, *ACM Transactions on Architecture and Code Optimization (TACO) 16 (4), 40*
 
@@ -68,7 +68,7 @@ Advisor: J.M Miret <br>
 Abstract: "This document is part of a wider project which presents an e-Voting platform based on elliptic curve cryptography. It uses an hybrid combination of two of the main e-Voting paradigms to guarantee privacy and security in the counting phase, these are precisely, the mixnets and the homomorphic protocols. This document is focused in the description of the system and the maths and programming needed to solve the homomorphic part of it. In later chapters, there is a comparison between a simple mixing system and our system proposal."
 
 <br>
-<h2 class="fa fa-chart-pie fa-2x" style="display:inline"></h2><h2 style="display:inline;padding-left:20px;">Presentations</h2>
+<h2 class="fa fa-pie-chart fa-2x" style="display:inline"></h2><h2 style="display:inline;padding-left:20px;">Presentations</h2>
 
 **November 2015 - [DL MESO Lattice Boltzmann port to Intel Xeon Phi]()** *Supercomputing '15*, Austin
 

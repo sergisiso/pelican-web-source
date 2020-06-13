@@ -11,6 +11,12 @@ THEME = 'Flex'
 SITELOGO = SITEURL + '/images/prof2.jpg'
 FAVICON = SITEURL + '/images/favicon.png'
 
+CUSTOM_CSS = "custom.css"
+
+EXTRA_PATH_METADATA = {
+    "static/custom.css": {"path": "custom.css"},
+}
+
 TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
@@ -25,12 +31,12 @@ TRANSLATION_FEED_ATOM = None
 
 # Social widget
 SOCIAL = (('envelope', 'mailto:sergiesg@gmail.com'),
-        ('github','https://github.com/sergisiso'),
-#        ('bitbucket','https://bitbucket.org/ssiso'),
-        ('instagram','https://www.instagram.com/sergisiso/'),
-        ('twitter','https://twitter.com/sergiesg'),
-#        ('facebook','https://www.facebook.com/sergi.siso.9'),
-        ('linkedin', 'https://www.linkedin.com/in/sergisiso'),)
+          ('github', 'https://github.com/sergisiso'),
+          # ('bitbucket', 'https://bitbucket.org/ssiso'),
+          ('instagram', 'https://www.instagram.com/sergisiso/'),
+          ('twitter', 'https://twitter.com/sergiesg'),
+          # ('facebook', 'https://www.facebook.com/sergi.siso.9'),
+          ('linkedin', 'https://www.linkedin.com/in/sergisiso'),)
 
 DEFAULT_PAGINATION = False
 
@@ -40,7 +46,7 @@ DISPLAY_RECENT_POSTS_ON_MENU = False
 DISPLAY_TAGS_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 
-STATIC_PATHS = ['images', 'pdfs']
+STATIC_PATHS = ['static/custom.css', 'images', 'pdfs']
 
 #PLUGIN_PATHS = [""]
 #PLUGINS = [""]
@@ -48,4 +54,4 @@ BOOTSTRAP_THEME = "spacelab"
 PYGMENTS_STYLE = "github"
 
 COPYRIGHT_NAME = "Sergi Siso"
-COPYRIGHT_YEAR = "2018-2019"
+COPYRIGHT_YEAR = "2018-2020"
